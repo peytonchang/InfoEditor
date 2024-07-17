@@ -8,9 +8,9 @@
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://peytonchang.github.io/InfoEditor/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://peytonchang.github.io/InfoEditor/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://peytonchang.github.io/InfoEditor/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://peytonchang.github.io/InfoEditor</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Pane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ms-TextField">
+        <label class="ms-Label">Select Configuration Field:</label>
+        <select class="ms-Dropdown-select" id="fieldSelect">
+            <option value="url">URL</option>
+            <option value="username">Username</option>
+            <option value="ruleService">Rule Service</option>
+            <option value="password">Password</option>
+        </select>
+    </div>
+
+    <div class="ms-TextField">
+        <label class="ms-Label">Enter Value:</label>
+        <input type="text" id="inputValue" class="ms-TextField-field" placeholder="Enter value">
+    </div>
+
+    <div class="ms-CommandButton">
+        <button class="ms-Button ms-Button--primary" id="writeButton">
+            <span class="ms-Button-label">Write</span>
+        </button>
+    </div>
+
+    <script src="taskpane.js"></script>
+</body>
+</html>
